@@ -1,0 +1,8 @@
+[package]
+name = "rosetta_backend_llvm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# inkwell can be added later when native LLVM is available in CI
+
