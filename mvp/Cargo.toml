@@ -1,0 +1,2 @@
+[workspace]
+members = ["ir", "backend/llvm", "frontend/rust"]
