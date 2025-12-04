@@ -1,5 +1,9 @@
 # Generative-ai-LLM
-# Generative-ai-LLM
+
+State-of-the-art Rosetta backend MVP scaffold is available on branch State-of-the-art-rosetta-backend-mvp.
+
+See design/architecture.md for the design and mvp/README.md for build/run instructions.
+
 This repository contains implementations and resources for working with generative AI models, particularly Large Language Models (LLMs). It aims to provide tools and utilities for training, fine-tuning, and using these models efficiently.
 ## Features
 - Support for fine-tuning popular LLMs
