@@ -116,9 +116,6 @@ Concrete first steps I can do for you
   - CI workflow and a README with how to run examples
 - Or produce a detailed architecture + spec document first (if you want to review before code).
 
-Questions for you now
-1. Do you want me to create the scaffold files in app-studio-sudo/Generative-ai-LLM? If yes, confirm and tell me which implementation language you prefer for the MVP (Rust or Python are my recommendations).
-2. Which initial source languages should the Rosetta Stone cover first (pick 2–3)?
-3. Which targets must the first prototype support (x86_64 macOS, linux, WASM)?
+State-of-the-art Rosetta backend MVP scaffold is available on branch State-of-the-art-rosetta-backend-mvp.
 
-If you confirm, I can create the initial design doc and/or push a scaffold to your repo (I’ll need permission to write there — confirm you want me to proceed and the owner/repo is app-studio-sudo/Generative-ai-LLM).
+See design/architecture.md for the design and mvp/README.md for build/run instructions.
