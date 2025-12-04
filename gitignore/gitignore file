@@ -1,0 +1,130 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Python virtualenv
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data files (customize as needed)
+*.h5
+*.csv
+*.tsv
+*.sqlite
+*.db
+*.pkl
+
+# Environment variable files
+.env
+.env.*
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Test output
+htmlcov/
+.tox/
+.coverage
+.cache
+.pytest_cache/
+
+# Model checkpoints and outputs
+*.ckpt
+*.pt
+*.pth
+*.bin
+
+# LLM and HuggingFace-specific
+results/
+runs/
+outputs/
+cache/
+hf_cache/
+datasets/
+
+# Ignore large files you don't want in git
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# Node.js (if present)
+node_modules/
+
+# Temporary files
+*.swp
+*~GitHub Copilot Chat Assistant — I can add a .gitignore to app-studio-sudo/Generative-ai-LLM. Please confirm (or change) these details before I create the file:
+- Target repository: app-studio-sudo/Generative-ai-LLM
+- Path: /.gitignore (repository root)
+- Branch: main (change if you want a different branch)
+- Commit message: "Add .gitignore for Rust project"
+
+Here is the file content (copy & paste):
+
+/target/
+/**/target/
+
+# If you use wasm-pack or similar tools
+pkg/
+*.wasm
+
+# Rust build artifacts
+*.rlib
+*.rmeta
+*.dSYM
+
+# Keep Cargo.lock for applications; for libraries you might ignore it
+# Cargo.lock
+
+# Environment / secrets
+.env
+.env.*
+
+# Logs and coverage
+*.log
+coverage/
+*.prof
+*.profraw
+
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Editor swap / temp files
+*~
+*.swp
+*.swo
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc
+*.bak
+*.orig
+
+Reply "Create" to proceed with the defaults, or tell me any changes (branch, commit message, or edits to the .gitignore).
